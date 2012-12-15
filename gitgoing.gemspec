@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = Gitgoing::VERSION
   gem.authors       = ["jsk"]
   gem.email         = ["knomedia@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{Ruby CLI for quickly managing and cloning your favorite git repos}
+  gem.summary       = %q{Ruby CLI for quickly managing and cloning your favorite git repos}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)
