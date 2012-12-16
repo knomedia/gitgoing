@@ -27,16 +27,16 @@ GitGoing responds to 7 commands, each are listed here, and are listed with detai
 
 GitGoing Commands:
 
- * [new](#new)
- * [add](#adding-a-repo-to-your-library-add)
- * [rename](#rename)
- * [remove](#remove)
- * [list](#list)
- * [merge](#merge)
- * [help](#help)
+ * new
+ * add
+ * rename
+ * remove
+ * list
+ * merge
+ * help
 
 ----
-#### <a id="new"></a>Creating a new project / clone a repo (`new`)
+#### Creating a new project / clone a repo (`new`)
 ````bash
 new (repo_name, new_project_name [,-r])
 ````
@@ -51,7 +51,7 @@ This would clone the repo that is named `skeleton` in your library to a MyProjec
 
 
 ----
-#### <a id="add"></a>Adding a repo to your library (`add`)
+#### Adding a repo to your library (`add`)
 ````bash
 add (repo_name, git_url)
 ````
@@ -65,7 +65,7 @@ This would add a project to your library named backbond-bp and associate it to t
 
 
 ----
-#### <a id="rename"></a>Rename a repo in your library (`rename`)
+#### Rename a repo in your library (`rename`)
 ````bash
 rename (current_repo_name ,new_name)
 ````
@@ -81,7 +81,7 @@ This would rename the project in your library currently named backbone-bb to bbb
 ----
 
 
-#### <a id="remove"></a>Remove a repo from your library (`remove`)
+#### Remove a repo from your library (`remove`)
 ````bash
 remove (repo_name [,-a])
 ````
@@ -98,7 +98,7 @@ This would remove the library project named bbb from your library of known git r
 
 
 ----
-#### <a id="list"></a>List the repos in your library (`list`)
+#### List the repos in your library (`list`)
 ````bash
 list
 ````
@@ -113,7 +113,7 @@ This would print out a list of the known git repos in your library
 
 
 ----
-#### <a id="merge"></a>Merge a library into your library (`merge`)
+#### Merge a library into your library (`merge`)
 ````bash
 merge (path_to_yaml)
 ````
@@ -128,7 +128,7 @@ This would add the git repos found in the yaml file located at this url. On your
 
 
 ----
-#### <a id="help"></a>Display help (`help`)
+#### Display help (`help`)
 ````bash
 help
 ````
