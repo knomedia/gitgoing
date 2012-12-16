@@ -28,7 +28,7 @@ GitGoing responds to 7 commands, each are listed here, and are listed with detai
 GitGoing Commands:
 
  * [new](#new)
- * [add](adding-a-repo-to-your-library-add)
+ * [add](#adding-a-repo-to-your-library-add)
  * [rename](#rename)
  * [remove](#remove)
  * [list](#list)
